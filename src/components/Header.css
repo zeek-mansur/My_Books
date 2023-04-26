@@ -1,0 +1,37 @@
+
+
+.body {
+
+    background-image: url('../text-book.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 350px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.body input {
+
+    height: 50px;
+    width: 400px;
+}
+
+.name {
+
+    color: rgb(26, 25, 28)
+
+}
+
+.search-result{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    cursor: pointer;
+}
+
