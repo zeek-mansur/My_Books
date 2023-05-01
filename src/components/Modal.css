@@ -69,3 +69,62 @@
     font-size: 13px;
 }
 
+@media (max-width: 700px) {
+
+    .overlay-inner{
+       
+        width: 500px;
+        height: 350px;
+        font-size: 0.9rem;
+        
+    }
+}
+
+@media (max-width: 520px) {
+
+    .overlay-inner{
+       
+        width: 400px;
+        height: 320px;
+        font-size: 0.7rem;  
+          
+    }
+
+    .overlay-inner .inner-box img{
+        margin-right: 20px;
+        width: 110px;
+        height: 160px;
+    }
+
+    img{
+        width: 80%;
+        height: 80%;
+    }
+
+ 
+}
+
+@media (max-width: 420px) {
+
+    .overlay-inner{
+       
+        width: 380px;
+        height: 320px;
+        font-size: 0.6rem;  
+          
+    }
+  
+ 
+}
+
+@media (max-width: 390px) {
+
+    .overlay-inner{
+       
+        width: 360px;
+        height: 300px;
+        font-size: 0.5rem;  
+          
+    }
+ 
+}

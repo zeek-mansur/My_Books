@@ -4,8 +4,15 @@ nav {
 
 }
 
+nav img {
+
+    width: 30%;
+    height: 30%;
+}
+
 ul{
     display: flex;
+    
      
 }
 
@@ -14,4 +21,40 @@ li {
     display: flex;
     list-style: none;
     margin: 20px;
+   
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (max-width: 500px) {
+
+
+    nav li {
+
+        font-size: small;
+    }
+ 
+}
+
+
+@media (max-width: 400px) {
+
+
+    nav li {
+
+        font-size: smaller;
+    }
+
+    nav h2 {
+        font-size: 16px;
+    }
+ 
+}
+
+
+
