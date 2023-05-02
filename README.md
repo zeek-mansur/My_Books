@@ -22,7 +22,7 @@ To run my code locally, users can download a local copy of my code to their desk
        
 9. Install project dependencies by doing ```npm install```
         
-9. Run live project locally by ```npm start``` and ```enter ```
+10. Run live project locally by ```npm start``` and ```enter ```
 
     
 

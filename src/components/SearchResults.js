@@ -15,7 +15,7 @@ let thumbnail=item.volumeInfo.imageLinks && item.volumeInfo.imageLinks.smallThum
     <div>
       <li className='result'>
       <img src={thumbnail} alt = "title" onClick={()=>{setShow(true);setItem(item)}}/>
-          <h3>Title: {title}</h3>
+          <h4>Title: {title}</h4>
           <p>Author:{author}</p>
           <button onClick={() => handleSaveBook()}>Save Book</button>
       </li>

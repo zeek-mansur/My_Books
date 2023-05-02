@@ -1,11 +1,10 @@
 
-
 .body {
 
     background-image: url('../Assets/book_picc.jpg');
     background-size: cover;
     background-position: center; 
-    height: 350px;
+    height: 610px;
     text-align: center;
     display: flex;
     align-items: center;
